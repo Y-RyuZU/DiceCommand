@@ -1,0 +1,10 @@
+name: DiceCommand
+version: ${project.version}
+main: com.github.y_ryuzu.dicecommand.DiceCommand
+api-version: 1.13
+description: ダイスを振ることができるコマンドを追加するPLです
+
+commands:
+  dice:
+    usage:  /dice
+    description: ダイスを振ります
